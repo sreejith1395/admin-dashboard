@@ -1,0 +1,57 @@
+
+
+
+                          dashboard ---Angular project workflow
+
+                     1.  (create new project)------ ng new admin-dashboard (project name)  
+
+
+                     2.  run project:ng serve or ng s (in project floder)
+
+                     3. install/import/add third party libraries to complete project
+                        
+                        *  Install angular material:ng add @angular/material
+
+                              custome theme
+                              typology 
+                              animation
+
+                              to use any component from material
+                                  copy the api for particular component and paste it on appmodule.ts
+
+                     4.delete all contents appcomponent.html 
+
+                     5. check third party libraries working in project or not 
+
+                          if not import prebuild theme to your project style.css file
+
+                     6.  hearder
+                         footer
+                         aside-sidebar
+
+                         dashnboard-inside
+
+                         card
+                         area-chart
+                         table
+                         pichart 
+
+                   7.design new components
+
+                       employees
+                       gallery
+                       contacts
+                       leads
+                    8.set up path for components and update
+
+                         -dashboard
+                         -employees
+                         -gallery
+                         -contacts
+                         -leads
+                    9.install highchat using npm install highcharts-angular --save
+                      9.1 import high chart ::::::import { HighchartsChartModule } from 'highcharts-angular';
+                      9.2  to get properties of high chart---install ::: npm install highcharts --save
+                      9.3  import high chart in component where we will display chart 
+
+

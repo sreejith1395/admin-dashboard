@@ -1,0 +1,101 @@
+
+
+
+                                                Angular----font end development 
+
+                            ------------------------------------------------------------------------
+                             Basic commands in angular
+                             -------------------------
+
+                    1. To create an Angular project : ng new project-name
+                    2. To run an angular project : ng serve/ng s
+                    3. to generate  component :ng g c  component-name 
+                    4. to generate services :ng g s   service-folder/service-name
+                    
+
+                               Basic concept in Angular
+                    ----------------------------------------------
+
+                   1. Modules--to import 3rd party libraries , also used to hold component 
+                   2. component-Basic building block of angular html,css,ts, aslo have selector
+                   3. selector-to replace selector tag with its html page
+                   4. decerator- to hold meta data start with @ 
+                   5. to view a component in another page -----
+                    
+                             * set up a path for component -- app-routing-module
+                             * router-outlet-- to navigate according to the user requested page 
+                   6.Data binding---a data share with in a component
+                      generally binding is used for data colloection
+                   two types of data sharing
+
+                            6. 1.one way binding :data communication between (Ts(component) to html(view)   or Html to ts) data sharing in one direction
+                     
+                             (ts to html)
+                                 6.1.1   string interpolation (ts to html)  
+                                         syntax  {{class property-name}}
+                                 6.2.1   property binding   (ts to html) 
+                                         syntax   [attribute-name]="property"
+                           6.2  one way binding to Html(view) - ts (component)
+
+                                6.2.1    event binding
+                                          
+                                          (event-name)="function call"
+                                6.2.2   event binding 
+                                         using doller $ event
+
+                                         (event-name)="function name($event)"
+                                6.2.3  using template reference  variable (#) 
+
+                                         # variable-name               
+
+                            6. 2.two way binding--data sharing in both direction 
+
+                            
+                                   
+                                   6.2.1 ngModel import formModule in appModule
+                                   
+                                   syxtax 
+                                   
+                                   [(ngModel)]="class property"
+
+
+                            7.angular Forms
+                                  1. templeate driven Forms --html page then it is known as  template driven forms
+                                  2. model driven form ----it has a view we can write ts then we create html page i.e known as model driven 
+
+                             
+                                navigateByUrl-router class      
+
+                        8.depandancy injection : to share data between dependent classes
+                                   
+                                                                                             
+                                   syntax
+                                  constructor (access-specifier variable-name:class-name ){
+                                         
+                                  }
+
+                                  varable -dependent class variable
+
+                                  
+                        9.angular services
+
+                        10 angular directives:  DOM Manipulation
+
+                            10.1 components directive(view)
+                            10.2 structural directive  to add or remove html item
+                                   *ngFor="let variable-name of array-name"
+                            10.3  Attribute directive : to apply style to html elements
+                                  ngClass---
+                        11.parent-child data sharing
+                           
+                             - child to parent communication       @Output--- decorator
+                             - parent to child communication       @Input------decrator
+
+
+                                 
+
+
+
+                                                       
+                    
+                
